@@ -5,7 +5,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Con
 from telegram.request import HTTPXRequest
 
 import os
-BOT_TOKEN = os.getenv("8565865745:AAGnrYkVRvtGF2j8svjMyV60xtppfmePEDE")
+BOT_TOKEN = os.getenv("8565865745:AAFVF9qteHMZ6AZ9iyRX8lXDsDt4avXfRnA")
 API = "https://darkietech.site/numapi.php?action=api&key=CODER&number="
 
 keyboard = ReplyKeyboardMarkup(

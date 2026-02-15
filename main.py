@@ -76,7 +76,7 @@ async def handle(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 def main():
-    print("Anish Exploits Bot Started Successfully")
+    print("𝐈𝐓𝐙𝐳 𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 𝐘𝐓 🇮🇳ᵀᴹ Bot Started Successfully")
 
     request = HTTPXRequest(
         connect_timeout=120,

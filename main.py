@@ -4,7 +4,8 @@ from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 from telegram.request import HTTPXRequest
 
-BOT_TOKEN = "8565865745:AAGnrYkVRvtGF2j8svjMyV60xtppfmePEDE"
+import os
+BOT_TOKEN = os.getenv("8565865745:AAGnrYkVRvtGF2j8svjMyV60xtppfmePEDE")
 API = "https://darkietech.site/numapi.php?action=api&key=CODER&number="
 
 keyboard = ReplyKeyboardMarkup(
